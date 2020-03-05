@@ -1,6 +1,12 @@
 # ASIF-Net
 
-We provide the resutls of our ASIF-Net. If you use the results, please cite our paper.
+We provide the resutls of our ASIF-Net. 
+
+Google Drive: https://drive.google.com/open?id=15WlRLFSYG-mQ73DpUngaUqOnUwtz4PPc
+Baidu Cloud: https://pan.baidu.com/s/1DVAwqe3n5JeUIuaAkzteYw  Password: byxj
+
+
+If you use the results, please cite our paper.
 
 @article{ASIF-Net,
   title={{ASIF-Net}: Attention steered interweave fusion network for {RGBD} salient object detection},

@@ -13,19 +13,26 @@ TensorFlow implementation of ASIF-Net
 
 ## Requirements
 Python 3
+
 TesnsorFlow 1.x
 
 ## Data Preprocessing
 ```
-<p>1) normalize the depth maps (note that the foreground should have higher value than the background in our method);</p>
-<p>2) resize the testing data to the size of 224*224;</p>
-<p>3) put your rgb images to 'test_real' folder and your depth maps to 'depth_real' folder (paired rgb image and depth map should have same name)</p>
+1) normalize the depth maps (note that the foreground should have higher value than the background in our method);
+
+2) resize the testing data to the size of 224*224;
+
+3) put your rgb images to 'test_real' folder and your depth maps to 'depth_real' folder (paired rgb image and depth map should have same name)
 ```
 
 
 ### Test
 ```
 python main_test.py
+
+find the results in the 'test_real' folder with the same name of input image +"_out".
+
+You can use a script to resize the results back to the same same of original RGB-D image. Or just use the 224*224 result. We did not find much differences for the evluation results.
 ```
 
 ## Bibtex

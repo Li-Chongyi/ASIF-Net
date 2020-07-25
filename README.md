@@ -39,7 +39,7 @@ You can use a script to resize the results back to the same size as the original
 
 
 If you use the results and code, please cite our paper.
-
+```
 @article{ASIF-Net,
   title={{ASIF-Net}: Attention steered interweave fusion network for {RGBD} salient object detection},
   
@@ -58,7 +58,7 @@ If you use the results and code, please cite our paper.
 }
 
 https://ieeexplore.ieee.org/document/8998588
-
+```
 ## Contact
 If you have any questions, please contact Chongyi Li at lichongyi25@gmail.com.
 

@@ -28,8 +28,10 @@ TensorFlow 1.x
 
 ## Data Preprocessing
 ```
-1) normalize the depth maps (note that the foreground should have higher value than the background in our method);
-2) resize the testing data to the size of 224*224;
+1) normalize the depth maps (note that the foreground should have higher value than the background in our method)
+
+2) resize the testing data to the size of 224*224
+
 3) put your rgb images to 'test_real' folder and your depth maps to 'depth_real' folder (paired rgb image and depth map should have same name)
 ```
 
@@ -44,8 +46,6 @@ You can use a script to resize the results back to the same size as the original
 ```
 
 ## Bibtex
-
-
 If you use the results and code, please cite our paper.
 ```
 @article{ASIF-Net,
@@ -57,8 +57,7 @@ If you use the results and code, please cite our paper.
   pages={1-13},
   year={2020}
 }
-
-https://ieeexplore.ieee.org/document/8998588
+paper link: https://ieeexplore.ieee.org/document/8998588
 ```
 ## Contact
 ```

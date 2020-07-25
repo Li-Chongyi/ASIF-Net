@@ -14,7 +14,7 @@ TensorFlow implementation of ASIF-Net
 ## Requirements
 Python 3
 
-TesnsorFlow 1.x
+TensorFlow 1.x
 
 ## Data Preprocessing
 ```

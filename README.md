@@ -63,3 +63,5 @@ paper link: https://ieeexplore.ieee.org/document/8998588
 ```
 If you have any questions, please contact Chongyi Li at lichongyi25@gmail.com.
 ```
+## Our recent related work for RGB-D Salient Object Detection
+https://li-chongyi.github.io/Proj_ECCV20

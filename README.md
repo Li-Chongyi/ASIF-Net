@@ -1,13 +1,37 @@
 # ASIF-Net
 
-We provide the resutls of our ASIF-Net. 
+We provide the resutls of ASIF-Net in our paper. 
 
 Google Drive: https://drive.google.com/open?id=15WlRLFSYG-mQ73DpUngaUqOnUwtz4PPc
 
 Baidu Cloud: https://pan.baidu.com/s/1DVAwqe3n5JeUIuaAkzteYw  Password: byxj
 
 
-If you use the results, please cite our paper.
+
+# TensorFlow
+TensorFlow implementation of ASIF-Net
+
+## Requirements
+Python 3
+TesnsorFlow 1.x
+
+## Data Preprocessing
+```
+<p>1) normalize the depth maps (note that the foreground should have higher value than the background in our method);</p>
+<p>2) resize the testing data to the size of 224*224;</p>
+<p>3) put your rgb images to 'test_real' folder and your depth maps to 'depth_real' folder (paired rgb image and depth map should have same name)</p>
+```
+
+
+### Test
+```
+python main_test.py
+```
+
+## Bibtex
+
+
+If you use the results and code, please cite our paper.
 
 @article{ASIF-Net,
   title={{ASIF-Net}: Attention steered interweave fusion network for {RGBD} salient object detection},
@@ -19,3 +43,7 @@ If you use the results, please cite our paper.
   year={2020}
 }
 https://ieeexplore.ieee.org/document/8998588
+
+## Contact
+If you have any questions, please contact Chongyi Li at lichongyi25@gmail.com.
+

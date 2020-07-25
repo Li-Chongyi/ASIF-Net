@@ -1,0 +1,2 @@
+model_checkpoint_path: "coarse.model-305450"
+all_model_checkpoint_paths: "coarse.model-305450"

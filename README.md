@@ -30,7 +30,7 @@ TensorFlow 1.x
 ```
 python main_test.py
 
-find the results in the 'test_real' folder with the same name of input image +"_out".
+find the results in the 'test_real' folder with the same name as the input image + "_out".
 
 You can use a script to resize the results back to the same same of original RGB-D image. Or just use the 224*224 result. We did not find much differences for the evluation results.
 ```

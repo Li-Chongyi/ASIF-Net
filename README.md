@@ -1,13 +1,14 @@
 # ASIF-Net
-
+<!--
 We provide the resutls of ASIF-Net in our paper. 
 ```
 Google Drive: https://drive.google.com/open?id=15WlRLFSYG-mQ73DpUngaUqOnUwtz4PPc
 
 Baidu Cloud: https://pan.baidu.com/s/1DVAwqe3n5JeUIuaAkzteYw  Password: byxj
 ```
+-->
 
-We also provide our testing code. If you test our model, please download the pretrained model, unzip it, and put the checkpoint to checkpoint/coarse_224 folder.
+We provide our testing code. If you test our model, please download the pretrained model, unzip it, and put the checkpoint to checkpoint/coarse_224 folder.
 ```
 Pretrained model download:
 

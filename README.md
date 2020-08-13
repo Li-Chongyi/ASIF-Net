@@ -1,12 +1,18 @@
 # ASIF-Net
-<!--
-We provide the resutls of ASIF-Net in our paper. 
+
+We provide the resutls of ASIF-Net in our paper. We rename the images, so the name of our result is different from the original data. For your evaluations, we also provide the corresponding renamed GT.
+Reults: 
 ```
 Google Drive: https://drive.google.com/open?id=15WlRLFSYG-mQ73DpUngaUqOnUwtz4PPc
 
 Baidu Cloud: https://pan.baidu.com/s/1DVAwqe3n5JeUIuaAkzteYw  Password: byxj
 ```
--->
+GT:
+```
+Google Drive: https://drive.google.com/file/d/1UrSt5oc5ER7Ux4Py2rlR58JmCImmEkw9/view?usp=sharing
+
+Baidu Cloud: https://pan.baidu.com/s/12M4COP8C3r1OELul7CtM4Q  Password: 1234
+```
 
 We provide our testing code. If you test our model, please download the pretrained model, unzip it, and put the checkpoint to checkpoint/coarse_224 folder.
 ```
@@ -29,9 +35,12 @@ TensorFlow 1.x
 
 ## Data Preprocessing
 ```
-1) normalize the depth maps (note that the foreground should have higher value than the background in our method)
+1) normalize the depth maps (note that the foreground should have higher value than the background in our method) 
+input=(input-min(min(input)))/(max(max(input))-min(min(input)))
+The step is very important for the accurate results.
 
 2) resize the testing data to the size of 224*224
+first normalize depth then resize will be better than first resize depth then normalize in our method. So please strictly follow our steps to generate testing data. 
 
 3) put your rgb images to 'test_real' folder and your depth maps to 'depth_real' folder (paired rgb image and depth map should have same name)
 ```

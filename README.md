@@ -38,7 +38,7 @@ TensorFlow 1.x
 ```
 1) normalize the depth maps (note that the foreground should have higher value than the background in our method) 
 input=(input-min(min(input)))/(max(max(input))-min(min(input)))
-The step is very important for the accurate results.
+The step is very important for accurate results.
 
 2) resize the testing data to the size of 224*224
 first normalize depth then resize will be better than first resize depth then normalize in our method. So please strictly follow our steps to generate testing data. 
